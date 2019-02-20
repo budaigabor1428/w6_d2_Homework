@@ -39,11 +39,7 @@ describe('Park', function() {
     assert.deepStrictEqual(park.dinosaurs, expected)
   });
 
-    it('should be able to find the dinosaur that attracts the most visitors', function () {
-    park.removeDinosaur(dinosaur1);
-    const expected = [];
-    assert.deepStrictEqual(park.dinosaurs, expected)
-  });
+  // it('should be able to find the dinosaur that attracts the most visitors')
 
   // it('should be able to find all dinosaurs of a particular species');
 
@@ -51,6 +47,6 @@ describe('Park', function() {
 
   //Calculate the total number of visitors per year
 
-//  Calculate the total revenue from ticket sales for one year
+  //Calculate the total revenue from ticket sales for one year
 
 });
